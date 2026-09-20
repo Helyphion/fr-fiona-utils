@@ -1,47 +1,47 @@
 {
     "fam0": {"id": 666666, "requires": {
-            "Lilyfowl": {"id": 27674, "source": "Gathering", "note": "hunting, level 10+"},
-            "Paddyfowl": {"id": 27673, "source": "Gathering", "note": "hunting, level 10+"}}},
+            "Lilyfowl": {"id": 27674, "source": "Gathering", "note": "Hunting, Level 10+"},
+            "Paddyfowl": {"id": 27673, "source": "Gathering", "note": "Hunting, Level 10+"}}},
 
     "fam1": {"id": 666666, "requires": {
-            "Creeping Tendril": {"id": 26125, "source": "Gathering", "note": "foraging, level 10+"},
-            "Garden Watcher": {"id": 26126, "source": "Gathering", "note": "foraging, level 10+"}}},
+            "Creeping Tendril": {"id": 26125, "source": "Gathering", "note": "Foraging, Level 10+"},
+            "Garden Watcher": {"id": 26126, "source": "Gathering", "note": "Foraging, Level 10+"}}},
 
     "fam2": {"id": 666666, "requires": {
-            "Blue Vein Pansy": {"id": 10669, "source": "Gathering", "note": "foraging, level 20+"},
-            "Orange Blotch Pansy": {"id": 10668, "source": "Gathering", "note": "foraging, level 20+"}}},
+            "Blue Vein Pansy": {"id": 10669, "source": "Gathering", "note": "Foraging, Level 20+"},
+            "Orange Blotch Pansy": {"id": 10668, "source": "Gathering", "note": "Foraging, Level 20+"}}},
 
     "fam3": {"id": 666666, "requires": {
-            "Dire Hyena": {"id": 21662, "source": "Gathering", "note": "scavenging, level 31+"},
-            "Wasteland Collector": {"id": 21661, "source": "Gathering", "note": "scavenging, level 31+"}}},
+            "Dire Hyena": {"id": 21662, "source": "Gathering", "note": "Scavenging, Level 31+"},
+            "Wasteland Collector": {"id": 21661, "source": "Gathering", "note": "Scavenging, Level 31+"}}},
 
     "fam4": {"id": 666666, "requires": {
-            "Dusky Dreadwolf": {"id": 53119, "source": "Arlo's Ancient Artifacts", "note": "frozen age"},
-            "Dreadwolf Rimestalker": {"id": 53118, "source": "Arlo's Ancient Artifacts", "note": "frozen age"}}},
+            "Dusky Dreadwolf": {"id": 53119, "source": "Arlo's Ancient Artifacts", "note": "Frozen Age"},
+            "Dreadwolf Rimestalker": {"id": 53118, "source": "Arlo's Ancient Artifacts", "note": "Frozen Age"}}},
 
     "fam5": {"id": 666666, "requires": {
-            "Leaftail Lizard": {"id": 60807, "source": "Arlo's Ancient Artifacts", "note": "fossilized flora"},
-            "Enamored Leaftail": {"id": 60808, "source": "Arlo's Ancient Artifacts", "note": "fossilized flora"}}},
+            "Leaftail Lizard": {"id": 60807, "source": "Arlo's Ancient Artifacts", "note": "Fossilized Flora"},
+            "Enamored Leaftail": {"id": 60808, "source": "Arlo's Ancient Artifacts", "note": "Fossilized Flora"}}},
 
     "fam6": {"id": 666666, "requires": {
-            "Amberwing Waveskimmer": {"id": 12739, "source": "Baldwin's Bubbling Brew", "note": "level 8"},
-            "Great Blue Waveskimmer": {"id": 12740, "source": "Baldwin's Bubbling Brew", "note": "level 8"}}},
+            "Amberwing Waveskimmer": {"id": 12739, "source": "Baldwin's Bubbling Brew", "note": "Level 8"},
+            "Great Blue Waveskimmer": {"id": 12740, "source": "Baldwin's Bubbling Brew", "note": "Level 8"}}},
 
     "fam7": {"id": 666666, "requires": {
-            "Iron Construct": {"id": 24135, "source": "Baldwin's Bubbling Brew", "note": "level 11"},
-            "Rusty Automaton": {"id": 24136, "source": "Baldwin's Bubbling Brew", "note": "level 11"}}},
+            "Iron Construct": {"id": 24135, "source": "Baldwin's Bubbling Brew", "note": "Level 11"},
+            "Rusty Automaton": {"id": 24136, "source": "Baldwin's Bubbling Brew", "note": "Level 11"}}},
 
     "fam8": {"id": 666666, "requires": {
-            "Painted Protobeast": {"id": 17373, "source": "Baldwin's Bubbling Brew", "note": "level 14"},
-            "Protobeast": {"id": 17374, "source": "Baldwin's Bubbling Brew", "note": "level 14"}}},
+            "Painted Protobeast": {"id": 17373, "source": "Baldwin's Bubbling Brew", "note": "Level 14"},
+            "Protobeast": {"id": 17374, "source": "Baldwin's Bubbling Brew", "note": "Level 14"}}},
 
     "fam9": {"id": 666666, "requires": {
-            "Algae-Bottom Slarg": {"id": 18439, "source": "Baldwin's Bubbling Brew", "note": "level 15"},
-            "Tar-Trooper Slarg": {"id": 18440, "source": "Baldwin's Bubbling Brew", "note": "level 15"}}},
+            "Algae-Bottom Slarg": {"id": 18439, "source": "Baldwin's Bubbling Brew", "note": "Level 15"},
+            "Tar-Trooper Slarg": {"id": 18440, "source": "Baldwin's Bubbling Brew", "note": "Level 15"}}},
 
     "fam10": {"id": 666666, "requires": {
-            "Sorrel Gryphlet": {"id": 33915, "source": "Baldwin's Bubbling Brew", "note": "level 25"},
-            "Superb Gryphlet": {"id": 33914, "source": "Baldwin's Bubbling Brew", "note": "level 25"}}},
+            "Sorrel Gryphlet": {"id": 33915, "source": "Baldwin's Bubbling Brew", "note": "Level 25"},
+            "Superb Gryphlet": {"id": 33914, "source": "Baldwin's Bubbling Brew", "note": "Level 25"}}},
 
     "fam11": {"id": 666666, "requires": {
             "Empress Beetle": {"id": 14290, "source": "Swipp's Swap Stand"},
@@ -126,12 +126,12 @@
             "Pitfall Fixture": {"id": 32673, "source": "Night of the Nocturne"}}},
 
     "fam34": {"id": 666666, "requires": {
-            "Radiant Flutterbun": {"id": 25162, "source": "Night of the Nocturne", "note": "baldwin"},
-            "Flutterbun": {"id": 25161, "source": "Night of the Nocturne", "note": "baldwin"}}},
+            "Radiant Flutterbun": {"id": 25162, "source": "Night of the Nocturne", "note": "Baldwin"},
+            "Flutterbun": {"id": 25161, "source": "Night of the Nocturne", "note": "Baldwin"}}},
 
     "fam35": {"id": 666666, "requires": {
-            "Fairy Octopus": {"id": 28766, "source": "Night of the Nocturne", "note": "baldwin"},
-            "Melon Squirmscoot": {"id": 28767, "source": "Night of the Nocturne", "note": "baldwin"}}},
+            "Fairy Octopus": {"id": 28766, "source": "Night of the Nocturne", "note": "Baldwin"},
+            "Melon Squirmscoot": {"id": 28767, "source": "Night of the Nocturne", "note": "Baldwin"}}},
 
     "fam36": {"id": 666666, "requires": {
             "Raging Tiger Foo": {"id": 40565, "source": "Warrior's Way"},
@@ -166,8 +166,8 @@
             "Rodaque Standardbearer": {"id": 59450, "source": "Talk like a Pirate Week"}}},
 
     "fam44": {"id": 666666, "requires": {
-            "Scarlet Macaw": {"id": 35958, "source": "Talk like a Pirate Week", "note": "baldwin"},
-            "Blue and Gold Macaw": {"id": 35957, "source": "Talk like a Pirate Week", "note": "baldwin"}}},
+            "Scarlet Macaw": {"id": 35958, "source": "Talk like a Pirate Week", "note": "Baldwin"},
+            "Blue and Gold Macaw": {"id": 35957, "source": "Talk like a Pirate Week", "note": "Baldwin"}}},
 
     "fam45": {"id": 666666, "requires": {
             "Blushing Tendertiel": {"id": 54811, "source": "Love is in the Air"},
@@ -179,7 +179,7 @@
 
     "fam47": {"id": 666666, "requires": {
             "Sweetheart Swan": {"id": 21525, "source": "Love is in the Air"},
-            "Enamored Swan": {"id": 21526, "source": "Love is in the Air", "note": "baldwin"}}},
+            "Enamored Swan": {"id": 21526, "source": "Love is in the Air", "note": "Baldwin"}}},
 
     "fam48": {"id": 666666, "requires": {
             "Ceanothus Brawler": {"id": 22376, "source": "Training Fields"},
@@ -258,8 +258,8 @@
             "Roving Jelly Jewel": {"id": 51942, "source": "Silk-Strewn Wreckage"}}},
 
     "fam67": {"id": 666666, "requires": {
-            "Moth Keeper": {"id": 51946, "source": "Silk-Strewn Wreckage", "note": "boss"},
-            "Midnight Lantern": {"id": 51945, "source": "Silk-Strewn Wreckage", "note": "boss"}}},
+            "Moth Keeper": {"id": 51946, "source": "Silk-Strewn Wreckage", "note": "Boss"},
+            "Midnight Lantern": {"id": 51945, "source": "Silk-Strewn Wreckage", "note": "Boss"}}},
 
     "fam68": {"id": 666666, "requires": {
             "Lilium Floron": {"id": 23810, "source": "Blooming Grove"},
@@ -298,8 +298,8 @@
             "Falconclaw Warrior": {"id": 28234, "source": "Thunderhead Savanna"}}},
 
     "fam77": {"id": 666666, "requires": {
-            "Thunderstomp": {"id": 28236, "source": "Thunderhead Savanna", "note": "boss"},
-            "Rockback Charger": {"id": 28235, "source": "Thunderhead Savanna", "note": "boss"}}},
+            "Thunderstomp": {"id": 28236, "source": "Thunderhead Savanna", "note": "Boss"},
+            "Rockback Charger": {"id": 28235, "source": "Thunderhead Savanna", "note": "Boss"}}},
 
     "fam78": {"id": 666666, "requires": {
             "Mirage Puffer": {"id": 20150, "source": "Redrock Cove"},
@@ -330,8 +330,8 @@
             "Stormclaw Showman": {"id": 24512, "source": "Arena"}}},
 
     "fam85": {"id": 666666, "requires": {
-            "Undying Featherback": {"id": 17508, "source": "Arena", "note": "boss"},
-            "Featherback Boar": {"id": 17507, "source": "Arena", "note": "boss"}}},
+            "Undying Featherback": {"id": 17508, "source": "Arena", "note": "Boss"},
+            "Featherback Boar": {"id": 17507, "source": "Arena", "note": "Boss"}}},
 
     "fam86": {"id": 666666, "requires": {
             "Fiendcat": {"id": 21418, "source": "Volcanic Vents"},
@@ -366,8 +366,8 @@
             "Budwing Morpho": {"id": 9225, "source": "Rainsong Jungle"}}},
 
     "fam94": {"id": 666666, "requires": {
-            "Goldenbeast": {"id": 10233, "source": "Rainsong Jungle", "note": "boss"},
-            "Overcharged Silverbeast": {"id": 10231, "source": "Rainsong Jungle", "note": "boss"}}},
+            "Goldenbeast": {"id": 10233, "source": "Rainsong Jungle", "note": "Boss"},
+            "Overcharged Silverbeast": {"id": 10231, "source": "Rainsong Jungle", "note": "Boss"}}},
 
     "fam95": {"id": 666666, "requires": {
             "Longneck Hunter": {"id": 10759, "source": "Boreal Wood"},
@@ -390,16 +390,16 @@
             "Arctic Hippalectryon": {"id": 13432, "source": "Crystal Pools"}}},
 
     "fam100": {"id": 666666, "requires": {
-            "Hawksbill Goliath": {"id": 13428, "source": "Crystal Pools", "note": "boss"},
-            "Crystalhide Jester": {"id": 13430, "source": "Crystal Pools", "note": "boss"}}},
+            "Hawksbill Goliath": {"id": 13428, "source": "Crystal Pools", "note": "Boss"},
+            "Crystalhide Jester": {"id": 13430, "source": "Crystal Pools", "note": "Boss"}}},
 
     "fam101": {"id": 666666, "requires": {
             "Cardinal Hippogriff": {"id": 2590, "source": "Harpy's Roost"},
             "Blue Tang Hippogriff": {"id": 2591, "source": "Harpy's Roost"}}},
 
     "fam102": {"id": 666666, "requires": {
-            "Crowned Roc": {"id": 16912, "source": "Harpy's Roost", "note": "boss"},
-            "Roc": {"id": 16911, "source": "Harpy's Roost", "note": "boss"}}},
+            "Crowned Roc": {"id": 16912, "source": "Harpy's Roost", "note": "Boss"},
+            "Roc": {"id": 16911, "source": "Harpy's Roost", "note": "Boss"}}},
 
     "fam103": {"id": 666666, "requires": {
             "Carrioncorn": {"id": 16488, "source": "Ghostlight Ruins"},
@@ -446,8 +446,8 @@
             "Depin": {"id": 11679, "source": "Kelp Beds"}}},
 
     "fam114": {"id": 666666, "requires": {
-            "Wave Sweeper": {"id": 7883, "source": "Kelp Beds", "note": "boss"},
-            "Mantarune": {"id": 7882, "source": "Kelp Beds", "note": "boss"}}},
+            "Wave Sweeper": {"id": 7883, "source": "Kelp Beds", "note": "Boss"},
+            "Mantarune": {"id": 7882, "source": "Kelp Beds", "note": "Boss"}}},
 
     "fam115": {"id": 666666, "requires": {
             "Robotic Tender": {"id": 33308, "source": "Construct Workshop"},
@@ -474,8 +474,8 @@
             "Calico Ferberus": {"id": 34773, "source": "Construct Workshop"}}},
 
     "fam121": {"id": 666666, "requires": {
-            "Frost Delver": {"id": 7594, "source": "Construct Workshop", "note": "boss"},
-            "Stone Borer": {"id": 7600, "source": "Construct Workshop", "note": "boss"}}},
+            "Frost Delver": {"id": 7594, "source": "Construct Workshop", "note": "Boss"},
+            "Stone Borer": {"id": 7600, "source": "Construct Workshop", "note": "Boss"}}},
 
     "fam122": {"id": 666666, "requires": {
             "Foolish Prince": {"id": 34791, "source": "Forbidden Portal"},
