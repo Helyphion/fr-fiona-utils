@@ -26,3 +26,12 @@ prolly gonna go with this format:
 
 although it does mean the "requires" list items will need to be accessed through Object.keys() rather than just by count
 which does bother me slightly, but I think for the sake of human-readability I do still prefer it
+
+
+
+
+"fam 0": {"id": 666666, "requires": {
+        "Lilyfowl": {"id": 27674, "source": "Gathering (Hunting, Level 10+)"},
+        "Paddyfowl": {"id": 27673, "source": "Gathering (Hunting, Level 10+)"}
+    }
+},

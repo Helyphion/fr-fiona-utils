@@ -47,7 +47,6 @@ Seaweed Scavenger
 
 Chocolate Ferret
 
-
 TREASURE MARKETPLACE
 Platewing Sphinx
 False Sphinx
@@ -60,7 +59,6 @@ Prancing Capricat
 
 Roundhorn Melprin
 Melprin
-
 
 RETIRED
 Slight Eyewing
@@ -145,8 +143,6 @@ Chocolate Noggle
 
 Sweetheart Swan
 Enamored Swan (Baldwin)
-
-
 
 TRAINING FIELDS
 Ceanothus Brawler

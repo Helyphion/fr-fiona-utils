@@ -47,7 +47,6 @@
 
 [gamedb item=4679]
 
-
 [size=4][b]TREASURE MARKETPLACE[/b][/size]
 [gamedb item=50637]
 [gamedb item=50638]
@@ -60,7 +59,6 @@
 
 [gamedb item=8320]
 [gamedb item=8319]
-
 
 [size=4][b]RETIRED[/b][/size]
 [gamedb item=26776]
@@ -145,8 +143,6 @@
 
 [gamedb item=21525]
 [gamedb item=21526] (Baldwin)
-
-
 
 [size=4][b]TRAINING FIELDS[/b][/size]
 [gamedb item=22376]

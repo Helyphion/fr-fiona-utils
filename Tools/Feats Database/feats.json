@@ -1,27 +1,491 @@
 {
-    "Gathering":
-    {
-        "Marshfowl": {"id": 33452, "requires": {
-            "Lilyfowl": {"id": 27674, "note": "Hunting, Level 10+"},
-            "Paddyfowl": {"id": 27673, "note": "Hunting, Level 10+"}}},
+    "fam0": {"id": 666666, "requires": {
+            "Lilyfowl": {"id": 27674, "source": "Gathering", "note": "hunting, level 10+"},
+            "Paddyfowl": {"id": 27673, "source": "Gathering", "note": "hunting, level 10+"}}},
 
-        "Tripled Tulip": {"id": 62286, "requires": {
-            "Garden Watcher": {"id": 26126},
-            "Creeping Tendril": {"id": 26125}}},
+    "fam1": {"id": 666666, "requires": {
+            "Creeping Tendril": {"id": 26125, "source": "Gathering", "note": "foraging, level 10+"},
+            "Garden Watcher": {"id": 26126, "source": "Gathering", "note": "foraging, level 10+"}}},
 
-        
-        "feat fam 1": {"id": 2748, "requires": {
-            "bleep": {"id": 38489, "source": "arlo"},
-            "blorp": {"id": 3747, "source": "training fields"}}
-        },
+    "fam2": {"id": 666666, "requires": {
+            "Blue Vein Pansy": {"id": 10669, "source": "Gathering", "note": "foraging, level 20+"},
+            "Orange Blotch Pansy": {"id": 10668, "source": "Gathering", "note": "foraging, level 20+"}}},
 
-        "feat fam 2": {"id": 2748, "requires": [
-            {"name": "bleep", "id": 38489, "source": "arlo's ancient artifacts"},
-            {"name": "blorp", "id": 3747, "source": "training fields"}]
-        }
-    
-    },
+    "fam3": {"id": 666666, "requires": {
+            "Dire Hyena": {"id": 21662, "source": "Gathering", "note": "scavenging, level 31+"},
+            "Wasteland Collector": {"id": 21661, "source": "Gathering", "note": "scavenging, level 31+"}}},
 
-"comment": "this is just a proof of concept. I think a database like this would be really handy to have, and could potentially automate parts of maintaining the tracker in the future...",
-"but": "I'm really undecided about what the most useful structure for this would be, and I also really cannot be bothered to gather all the data needed for this by clicking through the game database. I'd go insane"
+    "fam4": {"id": 666666, "requires": {
+            "Dusky Dreadwolf": {"id": 53119, "source": "Arlo's Ancient Artifacts", "note": "frozen age"},
+            "Dreadwolf Rimestalker": {"id": 53118, "source": "Arlo's Ancient Artifacts", "note": "frozen age"}}},
+
+    "fam5": {"id": 666666, "requires": {
+            "Leaftail Lizard": {"id": 60807, "source": "Arlo's Ancient Artifacts", "note": "fossilized flora"},
+            "Enamored Leaftail": {"id": 60808, "source": "Arlo's Ancient Artifacts", "note": "fossilized flora"}}},
+
+    "fam6": {"id": 666666, "requires": {
+            "Amberwing Waveskimmer": {"id": 12739, "source": "Baldwin's Bubbling Brew", "note": "level 8"},
+            "Great Blue Waveskimmer": {"id": 12740, "source": "Baldwin's Bubbling Brew", "note": "level 8"}}},
+
+    "fam7": {"id": 666666, "requires": {
+            "Iron Construct": {"id": 24135, "source": "Baldwin's Bubbling Brew", "note": "level 11"},
+            "Rusty Automaton": {"id": 24136, "source": "Baldwin's Bubbling Brew", "note": "level 11"}}},
+
+    "fam8": {"id": 666666, "requires": {
+            "Painted Protobeast": {"id": 17373, "source": "Baldwin's Bubbling Brew", "note": "level 14"},
+            "Protobeast": {"id": 17374, "source": "Baldwin's Bubbling Brew", "note": "level 14"}}},
+
+    "fam9": {"id": 666666, "requires": {
+            "Algae-Bottom Slarg": {"id": 18439, "source": "Baldwin's Bubbling Brew", "note": "level 15"},
+            "Tar-Trooper Slarg": {"id": 18440, "source": "Baldwin's Bubbling Brew", "note": "level 15"}}},
+
+    "fam10": {"id": 666666, "requires": {
+            "Sorrel Gryphlet": {"id": 33915, "source": "Baldwin's Bubbling Brew", "note": "level 25"},
+            "Superb Gryphlet": {"id": 33914, "source": "Baldwin's Bubbling Brew", "note": "level 25"}}},
+
+    "fam11": {"id": 666666, "requires": {
+            "Empress Beetle": {"id": 14290, "source": "Swipp's Swap Stand"},
+            "Bloodstone Beetle": {"id": 14291, "source": "Swipp's Swap Stand"}}},
+
+    "fam12": {"id": 666666, "requires": {
+            "Glamourtail Hopper": {"id": 15594, "source": "Swipp's Swap Stand"},
+            "Bellus Glamourtail": {"id": 15593, "source": "Swipp's Swap Stand"}}},
+
+    "fam13": {"id": 666666, "requires": {
+            "Autumn Sea Dragon": {"id": 14289, "source": "Swipp's Swap Stand"},
+            "Seaweed Scavenger": {"id": 14288, "source": "Swipp's Swap Stand"}}},
+
+    "fam14": {"id": 666666, "requires": {
+            "Chocolate Ferret": {"id": 4679, "source": "Swipp's Swap Stand"}}},
+
+    "fam15": {"id": 666666, "requires": {
+            "Platewing Sphinx": {"id": 50637, "source": "Treasure Marketplace"},
+            "False Sphinx": {"id": 50638, "source": "Treasure Marketplace"}}},
+
+    "fam16": {"id": 666666, "requires": {
+            "Silver Ferret": {"id": 4678, "source": "Treasure Marketplace"}}},
+
+    "fam17": {"id": 666666, "requires": {
+            "Longhorn Capricat": {"id": 22852, "source": "Gem Marketplace"},
+            "Prancing Capricat": {"id": 22853, "source": "Gem Marketplace"}}},
+
+    "fam18": {"id": 666666, "requires": {
+            "Roundhorn Melprin": {"id": 8320, "source": "Gem Marketplace"},
+            "Melprin": {"id": 8319, "source": "Gem Marketplace"}}},
+
+    "fam19": {"id": 666666, "requires": {
+            "Slight Eyewing": {"id": 26776, "source": "Retired"}}},
+
+    "fam20": {"id": 666666, "requires": {
+            "Willowmane Deerling": {"id": 36598, "source": "Retired"}}},
+
+    "fam21": {"id": 666666, "requires": {
+            "Light Gryphon": {"id": 57818, "source": "Retired"}}},
+
+    "fam22": {"id": 666666, "requires": {
+            "Lightning Gryphon": {"id": 58578, "source": "Retired"}}},
+
+    "fam23": {"id": 666666, "requires": {
+            "Fire Gryphon": {"id": 58579, "source": "Retired"}}},
+
+    "fam24": {"id": 666666, "requires": {
+            "Arcane Gryphon": {"id": 58580, "source": "Retired"}}},
+
+    "fam25": {"id": 666666, "requires": {
+            "Plague Gryphon": {"id": 58581, "source": "Retired"}}},
+
+    "fam26": {"id": 666666, "requires": {
+            "Earth Gryphon": {"id": 60556, "source": "Retired"}}},
+
+    "fam27": {"id": 666666, "requires": {
+            "Serpentine Lamp": {"id": 20825, "source": "Night of the Nocturne"},
+            "Vulpine Lamp": {"id": 20826, "source": "Night of the Nocturne"}}},
+
+    "fam28": {"id": 666666, "requires": {
+            "Inquisitive Shroud": {"id": 25167, "source": "Night of the Nocturne"},
+            "Valorous Cape": {"id": 25168, "source": "Night of the Nocturne"}}},
+
+    "fam29": {"id": 666666, "requires": {
+            "Smoldering Sconce": {"id": 20814, "source": "Night of the Nocturne"},
+            "Calculating Candelabra": {"id": 20813, "source": "Night of the Nocturne"}}},
+
+    "fam30": {"id": 666666, "requires": {
+            "Vigorous Goblet": {"id": 32671, "source": "Night of the Nocturne"},
+            "Dancing Chalice": {"id": 32670, "source": "Night of the Nocturne"}}},
+
+    "fam31": {"id": 666666, "requires": {
+            "Wooden Marionette": {"id": 15289, "source": "Night of the Nocturne"},
+            "Painted Marionette": {"id": 15286, "source": "Night of the Nocturne"}}},
+
+    "fam32": {"id": 666666, "requires": {
+            "Animated Statue": {"id": 15280, "source": "Night of the Nocturne"},
+            "Living Sculpture": {"id": 15283, "source": "Night of the Nocturne"}}},
+
+    "fam33": {"id": 666666, "requires": {
+            "Swinging Chandelier": {"id": 32672, "source": "Night of the Nocturne"},
+            "Pitfall Fixture": {"id": 32673, "source": "Night of the Nocturne"}}},
+
+    "fam34": {"id": 666666, "requires": {
+            "Radiant Flutterbun": {"id": 25162, "source": "Night of the Nocturne", "note": "baldwin"},
+            "Flutterbun": {"id": 25161, "source": "Night of the Nocturne", "note": "baldwin"}}},
+
+    "fam35": {"id": 666666, "requires": {
+            "Fairy Octopus": {"id": 28766, "source": "Night of the Nocturne", "note": "baldwin"},
+            "Melon Squirmscoot": {"id": 28767, "source": "Night of the Nocturne", "note": "baldwin"}}},
+
+    "fam36": {"id": 666666, "requires": {
+            "Raging Tiger Foo": {"id": 40565, "source": "Warrior's Way"},
+            "Ferocious Foo": {"id": 40564, "source": "Warrior's Way"}}},
+
+    "fam37": {"id": 666666, "requires": {
+            "Bladed Boa": {"id": 46530, "source": "Warrior's Way"},
+            "Serrated Snake": {"id": 46529, "source": "Warrior's Way"}}},
+
+    "fam38": {"id": 666666, "requires": {
+            "Nightshade Reaper": {"id": 58767, "source": "Warrior's Way"},
+            "Thornhedge Dryad": {"id": 58768, "source": "Warrior's Way"}}},
+
+    "fam39": {"id": 666666, "requires": {
+            "War Flight": {"id": 46536, "source": "Warrior's Way"},
+            "Armed Flight": {"id": 46537, "source": "Warrior's Way"}}},
+
+    "fam40": {"id": 666666, "requires": {
+            "Frosttrail Scout": {"id": 40571, "source": "Warrior's Way"},
+            "Iceridge Warrior": {"id": 40570, "source": "Warrior's Way"}}},
+
+    "fam41": {"id": 666666, "requires": {
+            "Conflict Creature": {"id": 40820, "source": "Warrior's Way"},
+            "Battleram Skirmisher": {"id": 40821, "source": "Warrior's Way"}}},
+
+    "fam42": {"id": 666666, "requires": {
+            "Raptorik Captain": {"id": 47011, "source": "Talk like a Pirate Week"},
+            "Raptorik Freebooter": {"id": 47010, "source": "Talk like a Pirate Week"}}},
+
+    "fam43": {"id": 666666, "requires": {
+            "Seafaring Rodaque": {"id": 59449, "source": "Talk like a Pirate Week"},
+            "Rodaque Standardbearer": {"id": 59450, "source": "Talk like a Pirate Week"}}},
+
+    "fam44": {"id": 666666, "requires": {
+            "Scarlet Macaw": {"id": 35958, "source": "Talk like a Pirate Week", "note": "baldwin"},
+            "Blue and Gold Macaw": {"id": 35957, "source": "Talk like a Pirate Week", "note": "baldwin"}}},
+
+    "fam45": {"id": 666666, "requires": {
+            "Blushing Tendertiel": {"id": 54811, "source": "Love is in the Air"},
+            "Tendertiel": {"id": 54810, "source": "Love is in the Air"}}},
+
+    "fam46": {"id": 666666, "requires": {
+            "Strawberry Noggle": {"id": 29248, "source": "Love is in the Air"},
+            "Chocolate Noggle": {"id": 29247, "source": "Love is in the Air"}}},
+
+    "fam47": {"id": 666666, "requires": {
+            "Sweetheart Swan": {"id": 21525, "source": "Love is in the Air"},
+            "Enamored Swan": {"id": 21526, "source": "Love is in the Air", "note": "baldwin"}}},
+
+    "fam48": {"id": 666666, "requires": {
+            "Ceanothus Brawler": {"id": 22376, "source": "Training Fields"},
+            "Mith Bruiser": {"id": 22377, "source": "Training Fields"}}},
+
+    "fam49": {"id": 666666, "requires": {
+            "Ragepuff": {"id": 22395, "source": "Training Fields"},
+            "Sweetpuff": {"id": 22394, "source": "Training Fields"}}},
+
+    "fam50": {"id": 666666, "requires": {
+            "Satin Pocketmouse": {"id": 22389, "source": "Training Fields"},
+            "Frosted Pocketmouse": {"id": 22388, "source": "Training Fields"}}},
+
+    "fam51": {"id": 666666, "requires": {
+            "Painted Centaur": {"id": 6338, "source": "Scorched Forest"},
+            "Wintermane Spearman": {"id": 6339, "source": "Scorched Forest"}}},
+
+    "fam52": {"id": 666666, "requires": {
+            "Wintermane Bowman": {"id": 6337, "source": "Scorched Forest"},
+            "Centaur Archer": {"id": 6336, "source": "Scorched Forest"}}},
+
+    "fam53": {"id": 666666, "requires": {
+            "Moss-Covered Guardian": {"id": 20029, "source": "Scorched Forest"},
+            "Augite Protector": {"id": 20030, "source": "Scorched Forest"}}},
+
+    "fam54": {"id": 666666, "requires": {
+            "Boneseeker": {"id": 57772, "source": "Boneyard"},
+            "Spinal Sorcerer": {"id": 57776, "source": "Boneyard"}}},
+
+    "fam55": {"id": 666666, "requires": {
+            "Carcass Custodian": {"id": 57786, "source": "Boneyard"},
+            "Boneyard Patroller": {"id": 57787, "source": "Boneyard"}}},
+
+    "fam56": {"id": 666666, "requires": {
+            "Ridgespine Streak": {"id": 57921, "source": "Boneyard"},
+            "Skeletal Streak": {"id": 57920, "source": "Boneyard"}}},
+
+    "fam57": {"id": 666666, "requires": {
+            "Ossein Scavenger": {"id": 58030, "source": "Boneyard"},
+            "Infected Scavenger": {"id": 58029, "source": "Boneyard"}}},
+
+    "fam58": {"id": 666666, "requires": {
+            "Spinesword Warden": {"id": 58033, "source": "Boneyard"},
+            "Boneblade Knight": {"id": 58032, "source": "Boneyard"}}},
+
+    "fam59": {"id": 666666, "requires": {
+            "Boneyard Omen": {"id": 57927, "source": "Boneyard"},
+            "Bearded Shrieker": {"id": 57926, "source": "Boneyard"}}},
+
+    "fam60": {"id": 666666, "requires": {
+            "Bloodfang Watcher": {"id": 57922, "source": "Boneyard"},
+            "Bloodfang Hunter": {"id": 57924, "source": "Boneyard"}}},
+
+    "fam61": {"id": 666666, "requires": {
+            "Corven Scribe": {"id": 58027, "source": "Boneyard"},
+            "Bonepicker Archivist": {"id": 58028, "source": "Boneyard"}}},
+
+    "fam62": {"id": 666666, "requires": {
+            "Redtail Gryphon": {"id": 38527, "source": "Sandswept Delta"},
+            "Masked Gryphon": {"id": 38528, "source": "Sandswept Delta"}}},
+
+    "fam63": {"id": 666666, "requires": {
+            "Fennec Kitsune": {"id": 38502, "source": "Sandswept Delta"},
+            "Charcoal Kitsune": {"id": 38503, "source": "Sandswept Delta"}}},
+
+    "fam64": {"id": 666666, "requires": {
+            "Desert Strangler": {"id": 38494, "source": "Sandswept Delta"},
+            "Prickly Strangler": {"id": 38493, "source": "Sandswept Delta"}}},
+
+    "fam65": {"id": 666666, "requires": {
+            "Assassin Bug": {"id": 51927, "source": "Silk-Strewn Wreckage"},
+            "Colony Killer": {"id": 51928, "source": "Silk-Strewn Wreckage"}}},
+
+    "fam66": {"id": 666666, "requires": {
+            "Jelly Jewel": {"id": 51941, "source": "Silk-Strewn Wreckage"},
+            "Roving Jelly Jewel": {"id": 51942, "source": "Silk-Strewn Wreckage"}}},
+
+    "fam67": {"id": 666666, "requires": {
+            "Moth Keeper": {"id": 51946, "source": "Silk-Strewn Wreckage", "note": "boss"},
+            "Midnight Lantern": {"id": 51945, "source": "Silk-Strewn Wreckage", "note": "boss"}}},
+
+    "fam68": {"id": 666666, "requires": {
+            "Lilium Floron": {"id": 23810, "source": "Blooming Grove"},
+            "Petalmane Floron": {"id": 23811, "source": "Blooming Grove"}}},
+
+    "fam69": {"id": 666666, "requires": {
+            "Spotted Faun": {"id": 23833, "source": "Blooming Grove"},
+            "Grove Piper": {"id": 23832, "source": "Blooming Grove"}}},
+
+    "fam70": {"id": 666666, "requires": {
+            "Peacevine Aardvark": {"id": 14560, "source": "Forgotten Cave"},
+            "Deepmine Aardvark": {"id": 14558, "source": "Forgotten Cave"}}},
+
+    "fam71": {"id": 666666, "requires": {
+            "Mantled Foo": {"id": 11148, "source": "Bamboo Falls"},
+            "Tigerblood Foo": {"id": 11147, "source": "Bamboo Falls"}}},
+
+    "fam72": {"id": 666666, "requires": {
+            "Ampelope": {"id": 28233, "source": "Thunderhead Savanna"},
+            "Starry Ampelope": {"id": 28237, "source": "Thunderhead Savanna"}}},
+
+    "fam73": {"id": 666666, "requires": {
+            "Unburdened Billy": {"id": 28246, "source": "Thunderhead Savanna"},
+            "Roundhorn Rager": {"id": 28247, "source": "Thunderhead Savanna"}}},
+
+    "fam74": {"id": 666666, "requires": {
+            "Magpie Sphinx": {"id": 28232, "source": "Thunderhead Savanna"},
+            "Dustfeather Sphinx": {"id": 28140, "source": "Thunderhead Savanna"}}},
+
+    "fam75": {"id": 666666, "requires": {
+            "Greattusk": {"id": 28228, "source": "Thunderhead Savanna"},
+            "Pale Greattusk": {"id": 28229, "source": "Thunderhead Savanna"}}},
+
+    "fam76": {"id": 666666, "requires": {
+            "Condorwing Champion": {"id": 28133, "source": "Thunderhead Savanna"},
+            "Falconclaw Warrior": {"id": 28234, "source": "Thunderhead Savanna"}}},
+
+    "fam77": {"id": 666666, "requires": {
+            "Thunderstomp": {"id": 28236, "source": "Thunderhead Savanna", "note": "boss"},
+            "Rockback Charger": {"id": 28235, "source": "Thunderhead Savanna", "note": "boss"}}},
+
+    "fam78": {"id": 666666, "requires": {
+            "Mirage Puffer": {"id": 20150, "source": "Redrock Cove"},
+            "Daydream Puffer": {"id": 20144, "source": "Redrock Cove"}}},
+
+    "fam79": {"id": 666666, "requires": {
+            "Leopard Coralclimber": {"id": 20147, "source": "Redrock Cove"},
+            "Noxious Coralclimber": {"id": 20153, "source": "Redrock Cove"}}},
+
+    "fam80": {"id": 666666, "requires": {
+            "Sludge Sifter": {"id": 25765, "source": "Waterway"},
+            "Scaleside Noggle": {"id": 25764, "source": "Waterway"}}},
+
+    "fam81": {"id": 666666, "requires": {
+            "Hulking Greatowl": {"id": 24506, "source": "Arena"},
+            "Armored Greatowl": {"id": 24505, "source": "Arena"}}},
+
+    "fam82": {"id": 666666, "requires": {
+            "Boran Veteran": {"id": 17495, "source": "Arena"},
+            "Spellwall Boran": {"id": 17496, "source": "Arena"}}},
+
+    "fam83": {"id": 666666, "requires": {
+            "Ashmane Chimera": {"id": 24508, "source": "Arena"},
+            "Bengal Chimera": {"id": 24507, "source": "Arena"}}},
+
+    "fam84": {"id": 666666, "requires": {
+            "Raptorik Ringmaster": {"id": 24511, "source": "Arena"},
+            "Stormclaw Showman": {"id": 24512, "source": "Arena"}}},
+
+    "fam85": {"id": 666666, "requires": {
+            "Undying Featherback": {"id": 17508, "source": "Arena", "note": "boss"},
+            "Featherback Boar": {"id": 17507, "source": "Arena", "note": "boss"}}},
+
+    "fam86": {"id": 666666, "requires": {
+            "Fiendcat": {"id": 21418, "source": "Volcanic Vents"},
+            "Flamerest Fiendcat": {"id": 21419, "source": "Volcanic Vents"}}},
+
+    "fam87": {"id": 666666, "requires": {
+            "Firemane Manticore": {"id": 21427, "source": "Volcanic Vents"},
+            "Ghost Manticore": {"id": 21426, "source": "Volcanic Vents"}}},
+
+    "fam88": {"id": 666666, "requires": {
+            "Ophiotaurus": {"id": 21436, "source": "Volcanic Vents"},
+            "Ashscale Ophiotaurus": {"id": 21437, "source": "Volcanic Vents"}}},
+
+    "fam89": {"id": 666666, "requires": {
+            "Clown Hippocampus": {"id": 10234, "source": "Rainsong Jungle"},
+            "Hippocampus": {"id": 10235, "source": "Rainsong Jungle"}}},
+
+    "fam90": {"id": 666666, "requires": {
+            "King Parda": {"id": 11669, "source": "Rainsong Jungle"},
+            "Parda": {"id": 11666, "source": "Rainsong Jungle"}}},
+
+    "fam91": {"id": 666666, "requires": {
+            "Ultramel Amphithere": {"id": 10227, "source": "Rainsong Jungle"},
+            "Ringlet Amphithere": {"id": 10229, "source": "Rainsong Jungle"}}},
+
+    "fam92": {"id": 666666, "requires": {
+            "Deadwood Boar": {"id": 10667, "source": "Rainsong Jungle"},
+            "Barkback Boar": {"id": 10666, "source": "Rainsong Jungle"}}},
+
+    "fam93": {"id": 666666, "requires": {
+            "Petal Jumper": {"id": 9226, "source": "Rainsong Jungle"},
+            "Budwing Morpho": {"id": 9225, "source": "Rainsong Jungle"}}},
+
+    "fam94": {"id": 666666, "requires": {
+            "Goldenbeast": {"id": 10233, "source": "Rainsong Jungle", "note": "boss"},
+            "Overcharged Silverbeast": {"id": 10231, "source": "Rainsong Jungle", "note": "boss"}}},
+
+    "fam95": {"id": 666666, "requires": {
+            "Longneck Hunter": {"id": 10759, "source": "Boreal Wood"},
+            "Longneck Wanderer": {"id": 10760, "source": "Boreal Wood"}}},
+
+    "fam96": {"id": 666666, "requires": {
+            "Frosttangle Strangler": {"id": 31191, "source": "Boreal Wood"},
+            "Deadwood Strangler": {"id": 31190, "source": "Boreal Wood"}}},
+
+    "fam97": {"id": 666666, "requires": {
+            "Stonewatch Prince": {"id": 13423, "source": "Crystal Pools"},
+            "Windcarve Fugitive": {"id": 13422, "source": "Crystal Pools"}}},
+
+    "fam98": {"id": 666666, "requires": {
+            "Crystalplate Stinger": {"id": 13429, "source": "Crystal Pools"},
+            "Sparkling Stinger": {"id": 13424, "source": "Crystal Pools"}}},
+
+    "fam99": {"id": 666666, "requires": {
+            "Hippalectryon": {"id": 13427, "source": "Crystal Pools"},
+            "Arctic Hippalectryon": {"id": 13432, "source": "Crystal Pools"}}},
+
+    "fam100": {"id": 666666, "requires": {
+            "Hawksbill Goliath": {"id": 13428, "source": "Crystal Pools", "note": "boss"},
+            "Crystalhide Jester": {"id": 13430, "source": "Crystal Pools", "note": "boss"}}},
+
+    "fam101": {"id": 666666, "requires": {
+            "Cardinal Hippogriff": {"id": 2590, "source": "Harpy's Roost"},
+            "Blue Tang Hippogriff": {"id": 2591, "source": "Harpy's Roost"}}},
+
+    "fam102": {"id": 666666, "requires": {
+            "Crowned Roc": {"id": 16912, "source": "Harpy's Roost", "note": "boss"},
+            "Roc": {"id": 16911, "source": "Harpy's Roost", "note": "boss"}}},
+
+    "fam103": {"id": 666666, "requires": {
+            "Carrioncorn": {"id": 16488, "source": "Ghostlight Ruins"},
+            "Nightmare": {"id": 16480, "source": "Ghostlight Ruins"}}},
+
+    "fam104": {"id": 666666, "requires": {
+            "Tatterwing Carcass": {"id": 16475, "source": "Ghostlight Ruins"},
+            "Shatterbone Vulture": {"id": 16476, "source": "Ghostlight Ruins"}}},
+
+    "fam105": {"id": 666666, "requires": {
+            "Greybeak Reaper": {"id": 16486, "source": "Ghostlight Ruins"},
+            "Tengu Caller": {"id": 16474, "source": "Ghostlight Ruins"}}},
+
+    "fam106": {"id": 666666, "requires": {
+            "Wraith Hound": {"id": 16472, "source": "Ghostlight Ruins"},
+            "Infestation Hound": {"id": 16485, "source": "Ghostlight Ruins"}}},
+
+    "fam107": {"id": 666666, "requires": {
+            "Aer Phantom": {"id": 16489, "source": "Ghostlight Ruins"},
+            "Lux Spectre": {"id": 16482, "source": "Ghostlight Ruins"}}},
+
+    "fam108": {"id": 666666, "requires": {
+            "Otherworldly Aura": {"id": 16479, "source": "Ghostlight Ruins"},
+            "Somber Spirit": {"id": 16477, "source": "Ghostlight Ruins"}}},
+
+    "fam109": {"id": 666666, "requires": {
+            "Mossy Cerdae": {"id": 11515, "source": "Mire"},
+            "Wetland Unicorn": {"id": 11510, "source": "Mire"}}},
+
+    "fam110": {"id": 666666, "requires": {
+            "Maren Warrior": {"id": 4354, "source": "Kelp Beds"},
+            "Maren Ambusher": {"id": 4353, "source": "Kelp Beds"}}},
+
+    "fam111": {"id": 666666, "requires": {
+            "Maren Wavesinger": {"id": 4352, "source": "Kelp Beds"},
+            "Maren Scout": {"id": 4351, "source": "Kelp Beds"}}},
+
+    "fam112": {"id": 666666, "requires": {
+            "Jeweled Octoflyer": {"id": 4356, "source": "Kelp Beds"},
+            "Octoflyer": {"id": 4355, "source": "Kelp Beds"}}},
+
+    "fam113": {"id": 666666, "requires": {
+            "Corrosive Depin": {"id": 11680, "source": "Kelp Beds"},
+            "Depin": {"id": 11679, "source": "Kelp Beds"}}},
+
+    "fam114": {"id": 666666, "requires": {
+            "Wave Sweeper": {"id": 7883, "source": "Kelp Beds", "note": "boss"},
+            "Mantarune": {"id": 7882, "source": "Kelp Beds", "note": "boss"}}},
+
+    "fam115": {"id": 666666, "requires": {
+            "Robotic Tender": {"id": 33308, "source": "Construct Workshop"},
+            "Mechanical Destroyer": {"id": 33311, "source": "Construct Workshop"}}},
+
+    "fam116": {"id": 666666, "requires": {
+            "Sentry Squawker": {"id": 11816, "source": "Construct Workshop"},
+            "Chromefeather Lookout": {"id": 11815, "source": "Construct Workshop"}}},
+
+    "fam117": {"id": 666666, "requires": {
+            "Coppercoil Creeper": {"id": 7593, "source": "Construct Workshop"},
+            "Black Iron Creeper": {"id": 7591, "source": "Construct Workshop"}}},
+
+    "fam118": {"id": 666666, "requires": {
+            "Construction Mith": {"id": 7592, "source": "Construct Workshop"},
+            "Sentinel Mith": {"id": 7597, "source": "Construct Workshop"}}},
+
+    "fam119": {"id": 666666, "requires": {
+            "Swift Lumen": {"id": 7601, "source": "Construct Workshop"},
+            "Swift Volt": {"id": 7602, "source": "Construct Workshop"}}},
+
+    "fam120": {"id": 666666, "requires": {
+            "Ferberus": {"id": 34774, "source": "Construct Workshop"},
+            "Calico Ferberus": {"id": 34773, "source": "Construct Workshop"}}},
+
+    "fam121": {"id": 666666, "requires": {
+            "Frost Delver": {"id": 7594, "source": "Construct Workshop", "note": "boss"},
+            "Stone Borer": {"id": 7600, "source": "Construct Workshop", "note": "boss"}}},
+
+    "fam122": {"id": 666666, "requires": {
+            "Foolish Prince": {"id": 34791, "source": "Forbidden Portal"},
+            "Mindless Flight": {"id": 34792, "source": "Forbidden Portal"}}},
+
+    "fam123": {"id": 666666, "requires": {
+            "Barhide Menace": {"id": 34718, "source": "Forbidden Portal"},
+            "Aberrant Chacma": {"id": 34717, "source": "Forbidden Portal"}}},
+
+    "fam124": {"id": 666666, "requires": {
+            "Teleporting Planesrunner": {"id": 34794, "source": "Forbidden Portal"},
+            "Giggling Planesrunner": {"id": 34793, "source": "Forbidden Portal"}}}
 }
