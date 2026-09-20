@@ -36,13 +36,13 @@ https://github.com/Helyphion/fr-fiona-tracker/blob/main/Tools/Bestiary%20Cross-C
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
 INSTRUCTIONS:
-Open https://www1.flightrising.com/bestiary/{userId}?view=discovered&filter=true&location=hoard&bond_level=not-awakened&limit=60&display=compact,
+Open https://www1.flightrising.com/bestiary/{userId}?view=all&filter=true&location=hoard&bond_level=not-awakened&limit=60&display=compact,
 highlight the full page of familiar names, and copy them into owned.txt. You will need to do this for every page individually.
 If you keep any familiars in your vault, you should also check 
-https://www1.flightrising.com/bestiary/{userId}?view=discovered&filter=true&location=vault&bond_level=not-awakened&limit=60&display=compact 
+https://www1.flightrising.com/bestiary/{userId}?view=all&filter=true&location=vault&bond_level=not-awakened&limit=60&display=compact 
 and copy them as well. (Just paste them into owned.txt along with the others.)
 
-Then, open https://www1.flightrising.com/bestiary/{userId}?view=discovered&filter=true&location=lair&bond_level=not-awakened&limit=60&display=compact,
+Then, open https://www1.flightrising.com/bestiary/{userId}?view=all&filter=true&location=lair&bond_level=not-awakened&limit=60&display=compact,
 highlight all familiar names, and copy them into in-progress.txt.
 WARNING: The site does not distinguish between familiars equipped in the lair vs hibernal den - if your only copy of a familiar required for a feat 
 is currently equipped on a dragon in the hibernal den (and therefore can't be bonded), the script will still not show it.
