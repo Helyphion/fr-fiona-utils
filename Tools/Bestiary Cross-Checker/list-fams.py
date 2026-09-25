@@ -50,6 +50,7 @@ for feat in database.keys():
             # need to append the "note" field after the name when there is one
             # also consider how to sort the "missing" column- prolly bosses last? maybe split by retired/events/coli? idk
             # also ideally this whole thing would be a website eventually but aughhh I don't wanna rewrite this in javascript :(((
+            # ...I'd also like to provide a whole lot more customisation, so I should maybe plan for that from the start
 
 
 with open("output.txt", "w") as file:
