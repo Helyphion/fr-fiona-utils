@@ -4,14 +4,57 @@
 <head>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>FR Bestiary Cross-Checker</title>
+<title>FR Fiona Wishlist Generator</title>
 <link rel="icon" href="favicon.ico">
 
 <!-- Bootstrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
 <style>
+body {
+    max-width: 45rem;
+    margin: auto;
+    margin-top: 1rem;
+    --bs-body-bg: #1f1613;
+}
 
+.accordion {
+    --bs-accordion-color: #f2eada;
+    --bs-accordion-border-color: #b77325;
+    --bs-accordion-active-bg: #d5a438;
+    --bs-accordion-active-color: #1f1613; /* need to decide on a color scheme ig */
+    --bs-accordion-btn-focus-box-shadow: 0px 0px 0px 1px #b77325;
+}
+
+.accordion-contents {
+    padding: 1rem 0.9rem;
+}
+
+.step-header {
+    font-weight: 700;
+    margin-right: 1rem;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.btn {
+    border-color: #ffc658;
+    color: #ffc658;
+}
+
+.btn:hover {
+    background-color: #ffc658;
+    border-color: #ffc658;
+    color: #24273a;
+}
+
+.btn.disabled {
+    border-color: #8087a2;
+    color: #8087a2;
+}
 </style>
 </head>
 
@@ -19,57 +62,78 @@
 
 <body>
 
-<div class="accordion" id="theAccordion">
+<div class="accordion">
 
     <div class="accordion-item">
         <h2 class="accordion-header">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#stepOne">
-                Step 1: Input your user ID
+                <span class="step-header">Step 1</span> Input your user ID
             </button>
         </h2>
         <div id="stepOne" class="accordion-collapse collapse show">
-            can also put info texts here 
+        <div class="accordion-contents">
+            can also put info texts here
             and the date the feats list was last updated prolly
 
             put "next" button at the bottom of each section
             to collapse it and show the next
-            just for UX
+            just for UX<br>
+
+            <label for="uuid" class="form-label">User ID</label>
+            <input type="text" class="form-control" id="uuid">
+
+            <div class="button-container">
+            <button type="button" class="btn btn-outline-secondary" id="next-1">next »</button>
+            </div>
+        </div>
         </div>
     </div>
 
 
     <div class="accordion-item">
         <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#stepTwo">
-                Step 2: Copy owned familiars
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#stepTwo">
+                <span class="step-header">Step 2</span> Copy owned familiars
             </button>
         </h2>
         <div id="stepTwo" class="accordion-collapse collapse">
-            awdwad
+        <div class="accordion-contents">
+            <label for="owned-fams" class="form-label">Owned Familiars</label>
+            <textarea class="form-control" id="owned-fams" rows="4"></textarea>
+            <div class="form-text">
+                Open LINK, highlight the full page of familiar names, and copy-paste them into this box.<br>
+                (You will need to do this for every page individually.)
+            </div>
+
+        </div>
         </div>
     </div>
 
 
     <div class="accordion-item">
         <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#stepThree">
-                Step 3: Copy in-progress familiars (optional)
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#stepThree">
+                <span class="step-header">Step 3</span> Copy in-progress familiars (optional)
             </button>
         </h2>
         <div id="stepThree" class="accordion-collapse collapse">
+        <div class="accordion-contents">
             awdwad
+        </div>
         </div>
     </div>
 
 
     <div class="accordion-item">
         <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#stepFour">
-                Step 4: Get your output!
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#stepFour">
+                <span class="step-header">Step 4</span> Get your output!
             </button>
         </h2>
         <div id="stepFour" class="accordion-collapse collapse">
+        <div class="accordion-contents">
             awdwad
+        </div>
         </div>
     </div>
 
