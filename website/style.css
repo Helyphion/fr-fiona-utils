@@ -1,0 +1,59 @@
+:root {
+    --theme-background: #1a0f0b;
+    --theme-primary-accent: #d5a438;
+    --theme-secondary-accent: #b77325;
+    --theme-text: #f2eada;
+    
+}
+/* TODO: decide on theme colors.. awugh... */
+
+body {
+    max-width: 45rem;
+    margin: auto;
+    margin-top: 1rem;
+    --bs-body-bg: var(--theme-background);
+    line-height: 1.4rem;
+}
+
+a {
+    font-weight: 700;
+    color: var(--theme-secondary-accent);
+}
+
+.accordion {
+    --bs-accordion-color: var(--theme-text);
+    --bs-accordion-border-color: var(--theme-secondary-accent);
+    --bs-accordion-active-bg: var(--theme-primary-accent);
+    --bs-accordion-active-color: var(--theme-background);
+    --bs-accordion-btn-focus-box-shadow: 0px 0px 0px 1px var(--theme-secondary-accent);
+}
+
+.accordion-contents {
+    padding: 1rem 0.9rem;
+}
+
+.step-header {
+    font-weight: 700;
+    margin-right: 1rem;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+.btn {
+    border-color: var(--theme-primary-accent);
+    color: var(--theme-primary-accent);
+}
+
+.btn:hover {
+    background-color: var(--theme-primary-accent);
+    border-color: var(--theme-primary-accent);
+    color: #24273a;
+}
+
+.btn.disabled {
+    border-color: #8087a2;
+    color: #8087a2;
+}
