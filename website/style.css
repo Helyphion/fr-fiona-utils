@@ -26,6 +26,11 @@ a {
     color: var(--theme-secondary-accent);
 }
 
+.highlight {
+    font-weight: 700;
+    color: var(--theme-secondary-accent);
+}
+
 .accordion {
     --bs-accordion-color: var(--theme-text);
     --bs-accordion-border-color: var(--theme-secondary-accent);

@@ -1,4 +1,5 @@
 import { updateLinks } from "./site.js";
+import { calculateOutput } from "./backend.js";
 
 
 async function fetchJsonData(file) {
@@ -6,18 +7,19 @@ async function fetchJsonData(file) {
     return await response.json();
 }
 
-const featsDatabase = await fetchJsonData("../feats.json");
+const featsDatabase = await fetchJsonData("./feats.json");
 
 const userData = new Map();
 
 
-function fetchInput(inputField) {
+function parseInput(inputField) {
     userData.set(inputField.id, inputField.value)
+    calculateOutput();
 }
 
 function createEventListener(elementID) {
     const inputField = document.getElementById(elementID);
-    inputField.addEventListener("input", () => { fetchInput(inputField) })
+    inputField.addEventListener("input", () => { parseInput(inputField) })
 
     if (elementID == "uuid") {
         inputField.addEventListener("input", () => { updateLinks() })
