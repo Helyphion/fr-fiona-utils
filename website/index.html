@@ -17,12 +17,14 @@
 
 <body>
 
+<h1>Fiona Bestiary Cross-Checker</h1>
+
 <div class="accordion">
 
     <div class="accordion-item">
         <h2 class="accordion-header">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#stepOne">
-                <span class="step-header">Step 1</span> Input your user ID
+                <span class="step-header">Step 1</span> Enter your user ID
             </button>
         </h2>
         <div id="stepOne" class="accordion-collapse collapse show">
@@ -33,10 +35,10 @@
             put "next" button at the bottom of each section
             to collapse it and show the next
             just for UX<br>
+            The bestiary has a different URL for every user, so your user ID is needed in order for the links in the following sections to work.
 
-            <label for="uuid" class="form-label">User ID</label>
-            <input type="text" class="form-control" id="uuid">
-
+            <input type="text" class="form-control" id="uuid" placeholder="Your user ID...">
+            <!-- TODO: input validation; only allow numbers + a # at the start -->
             <div class="button-container">
             <button type="button" class="btn btn-outline-secondary" id="next-1">next »</button>
             </div>
@@ -54,7 +56,7 @@
         <div id="stepTwo" class="accordion-collapse collapse show">
         <div class="accordion-contents">
 
-            <div>Open <a target="_blank" id="owned-fams-search">this bestiary search</a>, highlight the full page of familiar names, and copy-paste them into this box. (You will need to do this for every page individually.)</div>
+            <div>Open <a target="_blank" id="owned-fams-search">this bestiary search</a>, highlight from the first familiar name to the last, and copy-paste them into this box. (You will need to do this for every page individually.)</div>
             
             <textarea class="form-control" id="owned-fams" rows="4" placeholder="Paste here..."></textarea>
             <div class="form-text">
@@ -78,7 +80,18 @@
         </h2>
         <div id="stepThree" class="accordion-collapse collapse">
         <div class="accordion-contents">
-            awdwad
+            
+            <div>Now open <a target="_blank" id="awakened-fams-search">this bestiary search</a>, highlight from the first familiar name to the last, and copy-paste them into this box. (You will again need to do this for every page individually.)</div>
+            
+            <textarea class="form-control" id="awakened-fams" rows="4" placeholder="Paste here..."></textarea>
+            <div class="form-text">
+                Press next or open the next collapsible to continue.
+            </div>
+
+            <div class="button-container">
+                <button type="button" class="btn btn-outline-secondary" id="next-3">next »</button>
+            </div>
+
         </div>
         </div>
     </div>

@@ -13,10 +13,14 @@ function updateLinks() {
 
     if (userData.get("uuid") != "") {
 
-        ownedFamsLink.href = "???"
+        ownedFamsLink.href = `https://www1.flightrising.com/bestiary/${userData.get("uuid")}?view=discovered&filter=true&bond_level=not-awakened&limit=60&display=compact`;
+        awakenedFamsLink.href = `https://www1.flightrising.com/bestiary/${userData.get("uuid")}?view=all&filter=true&location=&bond_level=awakened&limit=60&display=compact`;
+        bondingFamsLink.href = `https://www1.flightrising.com/bestiary/${userData.get("uuid")}?view=discovered&filter=true&location=lair&bond_level=not-awakened&limit=60&display=compact`;
 
     } else {
         ownedFamsLink.removeAttribute("href");
+        awakenedFamsLink.removeAttribute("href");
+        bondingFamsLink.removeAttribute("href");
         // undo all href setting :P
     }
 }
