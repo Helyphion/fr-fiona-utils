@@ -10,11 +10,12 @@ async function fetchJsonData(file) {
 const featsDatabase = await fetchJsonData("./feats.json");
 
 const userData = new Map();
+let processedData = new Map();
 
 
 function parseInput(inputField) {
     userData.set(inputField.id, inputField.value)
-    calculateOutput();
+    processedData = calculateOutput();
 }
 
 function createEventListener(elementID) {
@@ -39,4 +40,4 @@ function main() {
 main();
 
 
-export { userData, featsDatabase };
+export { featsDatabase, userData, processedData };
