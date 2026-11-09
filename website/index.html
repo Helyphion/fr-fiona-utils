@@ -131,7 +131,63 @@
         </h2>
         <div id="stepFive" class="accordion-collapse collapse show">
         <div class="accordion-contents">
-            awdwad
+            
+            Formatting Settings
+
+            Columns
+            <form id="columns">
+                <!-- which columns to show -->
+                <div class="option">
+                    <input type="checkbox" name="columns" value="awakened" id="awakened" checked="true"> <label for="awakened">Awakened</label>
+                </div>
+                <div class="option">
+                    <input type="checkbox" name="columns" value="bonding" id="bonding" checked="true"> <label for="bonding">Bonding</label>
+                </div>
+                <div class="option">
+                    <input type="checkbox" name="columns" value="owned" id="owned" checked="true"> <label for="owned">Owned</label>
+                </div>
+                <div class="option">
+                    <input type="checkbox" name="columns" value="missing" id="missing" checked="true"> <label for="missing">Missing</label>
+                </div>
+            </form>
+
+            Display Type 
+            <form id="display-type">
+                <div class="option">
+                    <input type="radio" name="display-type" value="gamedb" id="gamedb" checked="true"> <label for="gamedb">Game Database Link</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="display-type" value="items" id="items"> <label for="items">Item Icons</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="display-type" value="plaintext" id="plaintext"> <label for="plaintext">Plain Text</label>
+                </div>
+            </form>
+
+            Sort By
+            <select class="form-select"> <!-- TODO: undecided about whether to use bootstrap or default html dropdown -->
+                <option selected value="ease">Ease of Obtaining</option>
+                <option value="alphabetical">Alphabetical Order</option>
+                <option value="source">Source</option>
+            </select>
+            <form id="grouping">
+                <div class="option">
+                    <input type="checkbox" name="grouping" value="by-source" id="by-source" checked="true"> <label for="by-source">Group by Source</label>
+                </div>
+                <div class="option">
+                    <input type="checkbox" name="grouping" value="by-feat" id="by-feat" checked="true"> <label for="by-feat">Group by Feat</label>
+                </div>
+            </form>
+
+            
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="legacy-layout">
+                <label class="form-check-label" for="legacy-layout">Legacy Layout</label>
+            </div>
+            should disable all (most?) other options
+
+            <br><br> Preview:
+
         </div>
         </div>
     </div>
