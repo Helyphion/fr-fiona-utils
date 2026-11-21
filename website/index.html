@@ -150,11 +150,14 @@
             </form>
 
             Sort By
-            <select class="form-select"> <!-- TODO: undecided about whether to use bootstrap or default html dropdown -->
-                <option selected value="ease">Ease of Obtaining</option>
-                <option value="alphabetical">Alphabetical Order</option>
-                <option value="source">Source</option>
-            </select>
+            <form id="sort-by">
+                <div class="option">
+                    <input type="radio" name="sort-by" value="source" id="source" checked="true"> <label for="source">Source</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="sort-by" value="alphabetical" id="alphabetical"> <label for="alphabetical">Alphabetical Order</label>
+                </div>
+            </form>
 
             <div class="option">
                 <input type="checkbox" name="headings" value="show-headings" id="show-headings" checked="true"> <label for="show-headings">Show Headings</label>
