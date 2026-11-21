@@ -7,7 +7,6 @@ function removeNicknamesAndBlanks(list) {
 }
 
 export function calculateOutput() {
-    console.log(featsDatabase)
 
     // only runs if at least owned fams and awakened fams have data
     if ( userData.get("owned-fams") && userData.get("awakened-fams") ) {
@@ -52,6 +51,7 @@ export function calculateOutput() {
             }
         }
         
+        console.log(outputMap)
         return outputMap;
 
     }

@@ -1,6 +1,8 @@
 import { updateLinks } from "./site.js";
 import { calculateOutput } from "./backend.js";
 
+import { test } from "./output-formatting.js";
+
 
 async function fetchJsonData(file) {
     const response = await fetch(file);
@@ -13,6 +15,7 @@ const userData = new Map();
 let processedData = new Map();
 
 
+// TODO: move all this eventlistener stuff.. hm. elsewhere. don't know where yet :(
 function parseInput(inputField) {
     userData.set(inputField.id, inputField.value)
     processedData = calculateOutput();
@@ -34,6 +37,8 @@ function main() {
     createEventListener("owned-fams");
     createEventListener("awakened-fams");
     createEventListener("bonding-fams");
+
+    test()
 
 }
 
