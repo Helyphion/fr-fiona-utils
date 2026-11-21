@@ -147,6 +147,9 @@
                 <div class="option">
                     <input type="radio" name="display-type" value="plaintext" id="plaintext"> <label for="plaintext">Plain Text</label>
                 </div>
+                <div class="option">
+                    <input type="radio" name="display-type" value="legacy" id="legacy"> <label for="legacy">Legacy Layout</label>  <!-- TODO: put a lil i symbol here to hover over, explaining the FFFT thread and stuff. eventually(tm) -->
+                </div>
             </form>
 
             Sort By
@@ -188,6 +191,7 @@
                 </form>
 
                 <br>
+                Misc.
                 <form id="utils">
                     <div class="option">
                         <input type="checkbox" name="utils" value="include-notes" id="include-notes" checked="true"> <label for="include-notes">Include Notes</label>
@@ -196,12 +200,6 @@
                         <input type="checkbox" name="utils" value="include-date" id="include-date" checked="true"> <label for="include-date">Include Last Updated</label>
                     </div>
                 </form>
-
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" id="legacy-layout">
-                    <label class="form-check-label" for="legacy-layout">Legacy Layout</label>
-                </div>
-                should disable all (most?) other options
                 
 
             </div>
