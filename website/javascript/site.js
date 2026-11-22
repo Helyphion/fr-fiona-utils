@@ -1,4 +1,29 @@
-import { userData } from "./main.js";
+import { calculateOutput } from "./backend.js";
+import { test } from "./output-formatting.js";
+
+
+const userData = new Map();
+let processedData = new Map();
+
+
+// TODO: move all this eventlistener stuff.. hm. elsewhere. don't know where yet :(
+function parseInput(inputField) {
+    userData.set(inputField.id, inputField.value)
+    processedData = calculateOutput();
+}
+
+export function listenForData(elementID) {
+    const inputField = document.getElementById(elementID);
+    inputField.addEventListener("input", () => { parseInput(inputField) })
+
+    if (elementID == "uuid") {
+        inputField.addEventListener("input", () => { updateLinks() })
+    }
+}
+
+export function listenForSettings() {
+    
+}
 
 
 export function updateLinks() {
@@ -20,3 +45,5 @@ export function updateLinks() {
         // undo all href setting :P
     }
 }
+
+export { userData, processedData }

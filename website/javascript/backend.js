@@ -1,4 +1,5 @@
-import { userData, featsDatabase } from "./main.js";
+import { featsDatabase } from "./main.js";
+import { userData } from "./site.js";
 
 
 

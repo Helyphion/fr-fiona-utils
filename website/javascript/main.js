@@ -1,7 +1,5 @@
-import { updateLinks } from "./site.js";
-import { calculateOutput } from "./backend.js";
-
 import { test } from "./output-formatting.js";
+import { listenForData } from "./site.js";
 
 
 async function fetchJsonData(file) {
@@ -11,38 +9,22 @@ async function fetchJsonData(file) {
 
 const featsDatabase = await fetchJsonData("./feats.json");
 
-const userData = new Map();
-let processedData = new Map();
-
-
-// TODO: move all this eventlistener stuff.. hm. elsewhere. don't know where yet :(
-function parseInput(inputField) {
-    userData.set(inputField.id, inputField.value)
-    processedData = calculateOutput();
-}
-
-function createEventListener(elementID) {
-    const inputField = document.getElementById(elementID);
-    inputField.addEventListener("input", () => { parseInput(inputField) })
-
-    if (elementID == "uuid") {
-        inputField.addEventListener("input", () => { updateLinks() })
-    }
-}
-
 
 function main() {
 
-    createEventListener("uuid");
-    createEventListener("owned-fams");
-    createEventListener("awakened-fams");
-    createEventListener("bonding-fams");
+    listenForData("uuid");
+    listenForData("owned-fams");
+    listenForData("awakened-fams");
+    listenForData("bonding-fams");
 
     test()
+
+    const settingsBox = document.getElementById("settings");
+    settingsBox.addEventListener("change", () => test()) // TODO: ..rename this function
 
 }
 
 main();
 
 
-export { featsDatabase, userData, processedData };
+export { featsDatabase };
