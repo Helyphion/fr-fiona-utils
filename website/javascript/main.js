@@ -1,4 +1,4 @@
-import { test } from "./output-formatting.js";
+import { formatOutput } from "./output-formatting.js";
 import { listenForData } from "./site.js";
 
 
@@ -17,10 +17,9 @@ function main() {
     listenForData("awakened-fams");
     listenForData("bonding-fams");
 
-    test()
 
     const settingsBox = document.getElementById("settings");
-    settingsBox.addEventListener("change", () => test()) // TODO: ..rename this function
+    settingsBox.addEventListener("change", () => formatOutput());
 
 }
 

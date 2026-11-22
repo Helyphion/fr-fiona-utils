@@ -29,7 +29,7 @@ function createColumns() {
 
 
 // TODO: make this refresh based on an event listener on the settings section
-export function test() {
+export function formatOutput() {
 
     fetchSettings();
     

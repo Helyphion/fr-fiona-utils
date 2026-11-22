@@ -1,12 +1,10 @@
 import { calculateOutput } from "./backend.js";
-import { test } from "./output-formatting.js";
 
 
 const userData = new Map();
 let processedData = new Map();
 
 
-// TODO: move all this eventlistener stuff.. hm. elsewhere. don't know where yet :(
 function parseInput(inputField) {
     userData.set(inputField.id, inputField.value)
     processedData = calculateOutput();
@@ -19,10 +17,6 @@ export function listenForData(elementID) {
     if (elementID == "uuid") {
         inputField.addEventListener("input", () => { updateLinks() })
     }
-}
-
-export function listenForSettings() {
-    
 }
 
 
