@@ -56,14 +56,12 @@
             "Seaweed Scavenger": {"id": 14288, "source": "Swipp's Swap Stand"}}},
 
     "fam14": {"id": 666666, "requires": {
-            "Chocolate Ferret": {"id": 4679, "source": "Swipp's Swap Stand"}}},
+            "Chocolate Ferret": {"id": 4679, "source": "Swipp's Swap Stand"},
+            "Silver Ferret": {"id": 4678, "source": "Treasure Marketplace"}}},
 
     "fam15": {"id": 666666, "requires": {
             "Platewing Sphinx": {"id": 50637, "source": "Treasure Marketplace"},
             "False Sphinx": {"id": 50638, "source": "Treasure Marketplace"}}},
-
-    "fam16": {"id": 666666, "requires": {
-            "Silver Ferret": {"id": 4678, "source": "Treasure Marketplace"}}},
 
     "fam17": {"id": 666666, "requires": {
             "Longhorn Capricat": {"id": 22852, "source": "Gem Marketplace"},
