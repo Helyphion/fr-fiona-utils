@@ -27,8 +27,20 @@ function createColumns() {
     }
 }
 
+function sortColumn(col) {
 
-// TODO: make this refresh based on an event listener on the settings section
+    console.log(col)
+
+    console.log(processedData)
+
+    if (sortBy[0] == "source") {
+
+    } else if (sortBy[0] == "alphabetical") {
+        console.log("gwah")
+    }
+}
+
+
 export function formatOutput() {
 
     fetchSettings();
@@ -41,8 +53,13 @@ export function formatOutput() {
 
         createColumns();
 
+        for (const col of columns) {
+            sortColumn(col);
+        }
+        
 
-        console.log(processedData)
+
+        console.log(columns)
         
 
         // TODO: prolly makes sense to split this into several functions, and just conditionally call them here.
